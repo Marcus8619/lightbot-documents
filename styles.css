@@ -34,6 +34,25 @@ a:hover {
     text-decoration: underline;
 }
 
-#privacy-policy-en, #terms-of-service-en {
+header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
     margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; 
+}
+
+.logo {
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#política-privacidad-es, #privacy-policy-en {
+    margin-bottom: 40px;
+}
+
+#términos-servicio-es, #terms-of-service-en {
+    margin-bottom: 40px;
 }
