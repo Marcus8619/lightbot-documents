@@ -14,8 +14,8 @@ header {
 }
 
 .logo {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: auto;
     border-radius: 50%;
     margin-right: 0px;
 }
