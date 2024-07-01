@@ -9,9 +9,7 @@ body {
 header {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     padding-bottom: 20px;
-    margin-bottom: 20px;
     border-bottom: 1px solid #ccc;
 }
 
@@ -30,12 +28,14 @@ h1 {
     font-size: 2.5rem;
     color: #333;
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 1rem;
     line-height: 1.5;
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -55,14 +55,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-#política-privacidad-es,
-#privacy-policy-en {
-    margin-bottom: 40px;
-}
-
-#términos-servicio-es,
-#terms-of-service-en {
-    margin-bottom: 40px;
 }
