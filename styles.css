@@ -16,8 +16,8 @@ header {
 }
 
 .logo {
-    width: 30px;
-    height: 30px;
+    width: 40px; 
+    height: auto;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -25,16 +25,19 @@ header {
 h1 {
     font-size: 2.5rem;
     color: #333;
+    margin-top: 0; 
 }
 
 p {
     font-size: 1rem;
     line-height: 1.5;
+    margin-top: 0; 
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    margin-top: 0; 
 }
 
 ul li {
@@ -50,10 +53,12 @@ a:hover {
     text-decoration: underline;
 }
 
-#política-privacidad-es, #privacy-policy-en {
+#política-privacidad-es,
+#privacy-policy-en {
     margin-bottom: 40px;
 }
 
-#términos-servicio-es, #terms-of-service-en {
+#términos-servicio-es,
+#terms-of-service-en {
     margin-bottom: 40px;
 }
